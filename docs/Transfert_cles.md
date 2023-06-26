@@ -42,10 +42,9 @@
       :::
 
 - Accédez au répertoire `.ssh` sur la machine virtuelle 1 dans FileZilla.
-      
       ::: details Voir l'image
 
-      ![An image](images\filezilassh.png)
+      ![An image](images\filezilassh.PNG)
 
       :::
   
