@@ -35,11 +35,11 @@
 ## Transfert de la clé id_rsa de la machine virtuelle 1 vers .ssh (local)
 
 - ::: details Ouvrez FileZilla et connectez-vous à la machine virtuelle 1 en utilisant le protocole SFTP avec votre mot de passe .
-      ![An image](images\filezila.png)
+      ![An image](images\filezila.jpg)
       :::
 
 - ::: details Accédez au répertoire `.ssh` sur la machine virtuelle 1 dans FileZilla.
-      ![An image](images\filezila.png)
+      ![An image](images\filezilassh.PNG)
       :::
   
 - Téléchargez la clé sur votre machine locale, puis transférez-la dans le dossier `.ssh` (local).
