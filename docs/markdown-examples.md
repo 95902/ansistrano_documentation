@@ -61,7 +61,7 @@ This is a details block.
 **Output**
 
 ::: info
-This is an info box.
+This is an info .
 :::
 
 ::: tip
@@ -79,6 +79,7 @@ This is a dangerous warning.
 ::: details
 This is a details block.
 :::
+
 
 ## More
 
