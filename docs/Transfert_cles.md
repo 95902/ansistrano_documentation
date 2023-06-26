@@ -36,15 +36,15 @@
 
 1. Ouvrez FileZilla et connectez-vous à la machine virtuelle 1 en utilisant le protocole SFTP avec votre mot de passe .
 
-      ::: details Voir l'image
+      <!-- ::: details Voir l'image
       ![An image](images\filezila.png)
-      :::
+      ::: -->
 
 2. Accédez au répertoire `.ssh` sur la machine virtuelle 1 dans FileZilla.
       
-      ::: details Voir l'image
+      <!-- ::: details Voir l'image
       ![An image](images\filezilassh.png)
-      :::
+      ::: -->
   
 - Téléchargez la clé sur votre machine locale, puis transférez-la dans le dossier `.ssh` (local).
 
