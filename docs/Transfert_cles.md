@@ -37,14 +37,14 @@
 -  Ouvrez FileZilla et connectez-vous à la machine virtuelle 1 en utilisant le protocole SFTP avec votre mot de passe .
       ::: details Voir l'image
       
-      ![An image](images\filezila.png)
+      <!-- ![An image](images\filezila.png) -->
 
       :::
 
 - Accédez au répertoire `.ssh` sur la machine virtuelle 1 dans FileZilla.
       ::: details Voir l'image
 
-      ![An image](images\filezilassh.PNG)
+      <!-- ![An image](images\filezilassh.PNG) -->
 
       :::
   
