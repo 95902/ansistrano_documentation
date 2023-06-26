@@ -45,8 +45,8 @@
       
       ::: details Voir l'image
 
-      ![An image](images\filezila.png)
-      
+      ![An image](images\filezilassh.png)
+
       :::
   
 - Téléchargez la clé sur votre machine locale, puis transférez-la dans le dossier `.ssh` (local).
