@@ -6,7 +6,7 @@ Pour gérer vos variables chiffrées en toute sécurité avec Ansible Vault, sui
 
 1. Créez un fichier de variables chiffrées à l'aide de la commande suivante (s'il n'est pas créer) :
 
-    ```
+    ``` bash
     ansible-vault create nom_fichier_variables_chiffrees.yml
     ```
 
@@ -29,7 +29,7 @@ Pour gérer vos variables chiffrées en toute sécurité avec Ansible Vault, sui
 
 4. Vous pouvez également éditer un fichier de variables existant en utilisant la commande suivante :
 
-    ```
+    ``` bash
     ansible-vault edit nom_fichier_variables_chiffrees.yml
     ```
 
@@ -39,7 +39,7 @@ Pour gérer vos variables chiffrées en toute sécurité avec Ansible Vault, sui
 
     - Pour chiffrer un fichier de variables non chiffrées existant, utilisez la commande :
 
-        ```
+        ``` bash
             ansible-vault encrypt nom_fichier_variables_non_chiffrees.yml
         ```
 
@@ -48,7 +48,7 @@ Pour gérer vos variables chiffrées en toute sécurité avec Ansible Vault, sui
 
     - Pour décrypter un fichier chiffré et le rendre accessible en clair, utilisez la commande :
 
-        ```
+        ```bash
             ansible-vault decrypt nom_fichier_variables_chiffrees.yml
         ```
 
@@ -60,7 +60,7 @@ Pour gérer vos variables chiffrées en toute sécurité avec Ansible Vault, sui
 
     Par exemple, si vous avez une tâche pour configurer un fichier de configuration avec le mot de passe de la base de données dans un docker-compose :
 
-    ```
+    ```bash
       db:
         image: mysql:latest
         container_name: db

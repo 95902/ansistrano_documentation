@@ -9,13 +9,13 @@ Suivez les étapes ci-dessous pour exécuter un playbook Ansible en utilisant `e
 2. Exécutez la commande `eval "$(ssh-agent)"` pour démarrer l'agent SSH. Cela démarrera l'agent SSH sur votre machine locale.
 
 
-    ```
+    ``` bash
         eval "$(ssh-agent)"
     ```
 
 3. Utilisez la commande `ssh-add` pour ajouter votre clé privée SSH à l'agent. 
 
-    ```
+    ``` bash
         ssh-add ~/.ssh/nom_de_la_clé_privée
     ```
 
@@ -32,7 +32,7 @@ Suivez les étapes ci-dessous pour exécuter un playbook Ansible en utilisant `e
 
 5. Pour exécuter votre playbook Ansible, utilisez la commande suivante en spécifiant le fichier de variables chiffrées et en utilisant l'option `--ask-vault-pass` pour demander le mot de passe du fichier chiffré :
 
-    ```
+    ``` bash
     ansible-playbook -i inventory/hosts playbook.yml --ask-vault-pass 
     ```
 

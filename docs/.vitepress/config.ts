@@ -2,15 +2,18 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "tets",
-  description: "test",
+  title: "ansistrano documentation",
+  description: "ansistrano documentation",
   base: "/ansistrano_documentation",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Accueil', link: '/' },
       { text: 'Instalation', link: '/presentation' },
-      { text: 'Documentation', link: '/markdown-examples' }
+      { text: 'Documentation', link: '/docker_commande' }
    
     ],
 
@@ -38,19 +41,18 @@ export default defineConfig({
           { text: "Connection à visual studio (dev)",link:'/Remmote_ssh_dev'},
           { text: "Extension Docker (dev)",link:'/extension_docker'},
           { text: "Fichier host",link:'/fichier_hosts'},
-          { text: 'Lancement du projet', link: '/markdown-examples' },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Reload apache ', link: '/reload_apach2' },
+          { text: 'Lancement du projet', link: '/lancement_projet.md' }
         ]
       },
       {
         text: 'Documentation',
         collapsed: true,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Reload apache ', link: '/reload_apach2' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Instalation de VirtualBox', link: '/instalation_VirtualBox' }
+          { text: 'Mémento Docker Compose', link: '/docker_commande' },
+          { text: 'Mémento Ansible', link: '/ansible_commande' },
+          { text: 'Mémento Vagrant', link: '/vagrant_commande' },
+          { text: 'Mémento Ansistrano', link: '/ansistrano_commande' }
         ]
       }
     ],
@@ -59,4 +61,5 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/INNOSYSFRANCE/assurmix_inte' }
     ]
   }
+  
 })

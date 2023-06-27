@@ -23,7 +23,7 @@
 
 3. Modifier les informations des serveurs ce trouvant dans ce fichier.
 
-    ``` js
+    ``` bash
         [marster_serveur]
         marster_serveur ansible_host=***.***.**.***
 

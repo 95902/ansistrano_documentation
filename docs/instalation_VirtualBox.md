@@ -10,7 +10,7 @@
    - Créez un nouveau répertoire sur votre machine pour le projet de déploiement d'application. Par exemple, "mon_projet_de déploiement".
    - Ouvrez un terminal ou une invite de commandes et accédez au répertoire que vous venez de créer.
 
-     ```
+     ``` bash
 
      mkdir mon_projet_de_deploiement
 
@@ -19,7 +19,7 @@
 ## 3. **Initialisation de Vagrant dans le répertoire :**
    - Dans le terminal, exécutez la commande suivante pour initialiser Vagrant dans votre répertoire de travail :
 
-     ```
+     ``` bash
      vagrant init
      ```
 
@@ -29,7 +29,7 @@
    - Créez un nouveau fichier sur votre machine pour le projet de déploiement d'application. Nommez-le `credentials.json` dans le même repertoire.
    - Insérez votre mot de passe et passphrase dans le fichier :
 
-     ```
+     ``` bash
      {
        "password": "********",
        "passphrase": "*********"
@@ -158,7 +158,7 @@
 ## 6. **Démarrage des machines virtuelles :**
    - Dans le terminal, exécutez la commande suivante pour télécharger et démarrer les machines virtuelles définies dans le Vagrantfile :
 
-     ```
+     ``` bash
      vagrant up
      ```
 

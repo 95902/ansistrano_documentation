@@ -81,13 +81,13 @@
 
 15. Ouvrer l'explorateur de fichier, puis le dossier et seclectioner l'empacement de la racine du projet.
 
-    ::: details 
+    ::: details Voir l'image
     ![An image](images\remotessh9.jpg)
     :::
 
 16. Sélectioner la plateforme linux pour le remote, Ouvrer l'explorateur de fichier  et vous devriez avoir un résultat comme l'image ci-dessous
 
-    ::: details 
+    ::: details Voir l'image
     ![An image](images\remotessh10.png)
     :::
 

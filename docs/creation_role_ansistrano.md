@@ -13,7 +13,7 @@
 
 4. Pour installer les rôles "ansistrano.deploy" et "ansistrano.rollback", utilisez la commande suivante dans votre terminal :
 
-    ```
+    ``` bash
     ansible-galaxy install ansistrano.deploy ansistrano.rollback
     ````
     Cette commande téléchargera les rôles depuis la galerie Ansible Galaxy et les installera dans le répertoire de votre projet.

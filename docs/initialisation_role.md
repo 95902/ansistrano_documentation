@@ -15,7 +15,7 @@
 
     Remplacez "nom_du_role" par le nom que vous souhaitez donner à votre rôle. Par exemple, si vous souhaitez créer un rôle appelé "mon_role", la commande serait :
 
-    ```
+    ``` bash
     ansible-galaxy init mon_role
     ```
 

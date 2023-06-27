@@ -19,13 +19,13 @@ Suivez les étapes ci-dessous pour ouvrir le fichier hosts en tant qu'administra
 8. Dans le fichier `hosts`, ajoutez une nouvelle ligne en bas pour ajouter l'adresse IP et le nom d'hôte que vous souhaitez associer. La syntaxe est la suivante :
 
 
-    ````
+    ```` bash
         <adresse_IP>    <nom_hôte>
     ````
 
     Par exemple : 
 
-    ````
+    ````bash
         192.168.1.100   example.com
     ````
 
@@ -34,3 +34,4 @@ Suivez les étapes ci-dessous pour ouvrir le fichier hosts en tant qu'administra
 > Pour que les modifications prennent effet, vous devrez peut-être redémarrer votre navigateur Web ou vider le cache DNS de votre système.
 
 Cette procédure vous permet d'ajouter manuellement une adresse IP personnalisée au fichier hosts sur Windows, ce qui vous permet d'associer des noms d'hôtes à des adresses IP spécifiques.
+

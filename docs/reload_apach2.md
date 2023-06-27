@@ -1,10 +1,10 @@
-Voici la procédure détaillée pour redémarrer Apache sur une machine virtuelle:
+# Procédure détaillée pour redémarrer Apache
 
-1. Ouvrez un terminal ou une session SSH sur votre machine virtuelle.
+1. Ouvrez un terminal sur votre machine virtuelle.
 
 2. Exécutez la commande suivante pour arrêter le service Apache :
 
-    ````
+    ```` bash
         sudo service apache2 stop
     ````
 
@@ -12,7 +12,7 @@ Voici la procédure détaillée pour redémarrer Apache sur une machine virtuell
 
 3. Ensuite, exécutez la commande suivante pour désactiver le démarrage automatique d'Apache lors du démarrage du système :
 
-    ````
+    ```` bash
         sudo systemctl disable apache2
     ````
 
@@ -22,7 +22,7 @@ Voici la procédure détaillée pour redémarrer Apache sur une machine virtuell
 4. Vous pouvez vérifier l'état d'Apache pour vous assurer qu'il est bien arrêté en exécutant la commande suivante :
 
 
-    ````
+    ```` bash
         sudo service apache2 status
     ````
 
@@ -30,7 +30,7 @@ Voici la procédure détaillée pour redémarrer Apache sur une machine virtuell
 
 5. Maintenant, vous pouvez redémarrer Apache en exécutant la commande suivante :
 
-    ````
+    ```` bash
         sudo service apache2 start
     ````
 
@@ -40,3 +40,10 @@ Voici la procédure détaillée pour redémarrer Apache sur une machine virtuell
 
     Cette procédure vous permet d'arrêter, désactiver et redémarrer le service Apache sur une machine virtuelle en utilisant les commandes `sudo service apache2 stop` et `sudo systemctl disable apache2`. 
     
+6. Maintenant, vous pouvez fermer Visual Studio et éteindre les machines virtuelles en utilisant la commande suivante :
+
+    ````bash
+        vagrant halt
+    ````
+
+    Cette commande arrêtera les machines virtuelles en cours d'exécution sur votre machine locale.
